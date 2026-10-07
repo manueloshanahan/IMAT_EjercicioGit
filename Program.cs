@@ -4,7 +4,7 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(Multiply(2, 8));
+            Console.WriteLine(Divide(2, 8));
         }
 
 
@@ -17,5 +17,11 @@
         {
             return x * y;
         }
+
+        public static int Divide(int x, int y)
+        {
+            return x / y;
+        }
     }
+
 }
