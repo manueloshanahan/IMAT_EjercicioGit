@@ -23,6 +23,10 @@
 
         public static int Divide(int x, int y)
         {
+            if (y == 0)
+            {
+                Console.WriteLine("No se puede dividir entre cero.")
+            }
             return x / y;
         }
         public static int Subtract(int x, int y)
