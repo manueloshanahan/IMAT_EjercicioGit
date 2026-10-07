@@ -4,7 +4,7 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(Multiply(2, 8));
+            Console.WriteLine(Subtract(2, 0));
         }
 
 
@@ -16,6 +16,11 @@
         public static double Multiply(int x, int y)
         {
             return x * y;
+        }
+
+        public static int Subtract(int x, int y)
+        {
+            return x - y;
         }
     }
 }
