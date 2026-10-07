@@ -24,8 +24,9 @@
         public static int Divide(int x, int y)
         {
             if (y == 0)
-            {
-                Console.WriteLine("No se puede dividir entre cero.")
+            {   
+
+                Console.WriteLine("No se puede dividir entre cero, denominador(y) = 0)
             }
             return x / y;
         }
