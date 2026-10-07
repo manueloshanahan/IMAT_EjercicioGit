@@ -5,6 +5,9 @@
         static void Main(string[] args)
         {
             Console.WriteLine(Divide(2, 8));
+
+            Console.WriteLine(Subtract(2, 0));
+
         }
 
 
@@ -21,6 +24,10 @@
         public static int Divide(int x, int y)
         {
             return x / y;
+        }
+        public static int Subtract(int x, int y)
+        {
+            return x - y;
         }
     }
 
