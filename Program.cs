@@ -4,13 +4,18 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(Add(2, 0));
+            Console.WriteLine(Multiply(2, 8));
         }
 
 
         public static int Add(int x, int y)
         {
             return x + y;
+        }
+
+        public static double Multiply(int x, int y)
+        {
+            return x * y;
         }
     }
 }
